@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid blue;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* zoom in */
+        /* scale(width, height) */
+        div:nth-child(2):hover{
+            transform: scale(1.01, 3.0);
+            background-color: cornflowerblue;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+    <div>Four</div>
+</body>
+</html>

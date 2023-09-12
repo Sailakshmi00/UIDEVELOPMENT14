@@ -1,0 +1,22 @@
+.c2{
+    border: 2px solid crimson;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkmagenta;
+    position: relative;
+    top: 0px;
+}
+
+.c3{
+    border: 2px solid chartreuse;
+    margin: 10px;
+    padding: 10px;
+    background-color: deeppink;
+}
+
+.c22{
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+}

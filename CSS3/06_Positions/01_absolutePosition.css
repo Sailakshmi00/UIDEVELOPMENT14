@@ -1,0 +1,32 @@
+.c1{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+.c2{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: crimson;
+}
+
+.c3{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: cyan;
+    position: absolute;
+    top: 220px;
+    left: 320px;
+    right: 320px;
+    bottom: 120px;
+}
+
+.c4{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: chartreuse;
+}

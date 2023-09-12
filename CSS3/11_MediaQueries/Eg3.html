@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        section, div {
+            /* border: 2px solid blue; */
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex: 1;
+            background-color: whitesmoke;
+        }
+
+        div{
+            height: 320px;
+        }
+
+        /* img{
+            object-fit: cover;
+        } */
+
+        li{
+            padding: 20px;
+        }
+        
+        @media only screen and (max-width:932px) {
+            section div{
+                flex-direction: column;
+                
+            }
+            div{
+                color: royalblue;
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <img src="./i13.webp" alt="" width="250px">
+            <ul type="none">
+                <li><img src="./bullet.png">ListOne</li>
+                <li><img src="./bullet.png">ListOne</li>
+                <li><img src="./bullet.png">ListOne</li>
+                <li><img src="./bullet.png">ListOne</li>
+            </ul>
+        </div>
+        <div>
+            <img src="./i14.webp" alt="" width="250px">
+            <ul type="none">
+                <li><img src="./bullet.png">ListOne</li>
+                <li><img src="./bullet.png">ListOne</li>
+                <li><img src="./bullet.png">ListOne</li>
+                <li><img src="./bullet.png">ListOne</li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
