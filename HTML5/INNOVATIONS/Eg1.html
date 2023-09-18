@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header h2 {
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+            color: darkgreen;
+        }
+
+        * {
+            color: royalblue;
+        }
+
+        #body,
+        div {
+
+            padding: 20px;
+            margin-bottom: 10px;
+            display: grid;
+            grid-template-rows: 350px;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            margin-right: 5px;
+            background-color: whitesmoke;
+        }
+
+        .image-onebody img {
+            width: 250px;
+        }
+
+        li img {
+            width: 15px;
+        }
+        /* .slides{
+           display: grid;
+           grid-template-columns: 100px;
+           
+            align-items: center;
+            grid-template-rows: 250px;
+            overflow-x: scroll;
+            scroll-snap-type: y mandatory;
+        }
+        .slide-item{
+            scroll-snap-align:center;
+            min-width: 175%;
+        }
+        .slide-image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Online Store</h1>
+        <h2> MYNTRA </h2>
+        <nav>
+            <ul>
+                <li><a href="#"><label for="Birds">HOME</label>
+                        <select>
+                            <optgroup label="">
+                                <option value=""><button><a href="./test.html">Telivisions</a></button></option>
+                                <option value="">Fridges</option>
+                                <option value="">Washing Machine</option>
+                                <option value="">AC</option>
+                                <option value="">Mobile Phones</option>
+                            </optgroup>
+                        </select>
+
+                    </a>
+                </li>
+                <li><a href="#">
+                        <label for="Birds">PROUDCTS</label>
+                        <select>
+                            <optgroup label="">
+                                <option value="">Samsung</option>
+                                <option value="">LG</option>
+                                <option value="">Onida</option>
+                                <option value="">Skywear</option>
+                                <option value="">Dikin</option>
+                            </optgroup>
+                        </select>
+                    </a></li>
+                <li><a href="#">
+                        <label for="Birds">Contact</label>
+                        <select>
+                            <optgroup label="">
+                                <option value="">Phone no : 9876543298</option>
+                                <option value="">Email id : myntra@gmail.com</option>
+                                <option value="">Website : https://www.myntra.com</option>
+                            </optgroup>
+                        </select>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <!-- <section id="mainslide">
+                <div class="slides">
+                    <div class="slide-item">
+                        <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                        <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                        <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                        <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                    </div>
+            
+                </div>
+            </section> -->
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>OnePlus Nord CE 3 Lite 5G</h2>
+            <p>Price: $19.99</p>
+            <p>Display
+                6.72-inch (1800x2400)
+                Processor
+                Qualcomm Snapdragon 695
+                Front Camera
+                16MP </p>
+            <button><a href="productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Vivo V29e</h2>
+            <p>Price: $29.99</p>
+            <p>Display
+                6.78-inch (2400x1080)
+                Processor
+                Qualcomm Snapdragon 695
+                Front Camera
+                50MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 1">
+            <h2>iPhone 13</h2>
+            <p>Price: $39.99</p>
+            <p>Display
+                6.10-inch (1170x2532)
+                Processor
+                Apple A15 Bionic
+                Front Camera
+                12MP</p>
+            <button><a href="productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Samsung Galaxy S21 FE 5G</h2>
+            <p>Price: $69.99</p>
+            <p>Display
+                6.40-inch
+                Processor
+                octa-core
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 1">
+            <h2>iPhone 13 Pro</h2>
+            <p>Price: $89.99</p>
+            <p>Display
+                6.10-inch (1170x2523)
+                Processor
+                Apple A15 Bionic
+                Front Camera
+                12MP</p>
+            <button><a href="productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Nothing Phone 1</h2>
+            <p>Price: $109.99</p>
+            <p>Display
+                6.55-inch (1080x2400)
+                Front Camera
+                16MP
+                Rear Camera
+                50MP + 50MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 1">
+            <h2>OnePlus Nord CE 2 5G</h2>
+            <p>Price: $129.99</p>
+            <p>Display 6.40-inch (1080x2400)
+                Processor MediaTek Dimensity 900
+                Front Camera 16MP
+            </p>
+            <button><a href="productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+        <section class="product">
+            <img src="../../../../../Downloads/iphoneimage.jpg" alt="Product 2">
+            <h2>Oppo Reno 8</h2>
+            <p>Price: $209.99</p>
+            <p>Display
+                6.43-inch (2400x1080)
+                Processor
+                MediaTek Dimensity 1300
+                Front Camera
+                32MP</p>
+            <button><a href="./productadded.html">Add to Cart</a></button>
+        </section>
+
+
+
+
+    </main>
+
+    <center>
+        <h1> ENJOY SHOPPING </h1>
+    </center><br>
+
+    <body>
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+        <section id="body">
+            <div class="image-onebody">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="">
+            </div>
+
+            <div style="display: block;">
+                <h3>I Phone 11</h3>
+                <ul type="none">
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                    <li><img src="../bulletimage.jpg">128GB</li>
+                </ul>
+            </div>
+            <div style="display: block">
+                <h3>&#8377 70000</h3>
+                <h3><del>78000</del></h3>
+                <h2>iPhone 13</h2>
+                <p>Price: $39.99</p>
+                <p>Display
+                    6.10-inch (1170x2532),,
+                    Processor
+                    Apple A15 Bionic,,
+                    Front Camera
+                    12MP..</p>
+                <button><a href="productadded.html">Add to Cart</a></button>
+            </div>
+        </section>
+
+    </body>
+
+</html>
+</body>
+<footer>
+    <p>&copy; 2023 Online Store</p>
+    <p> The first mobile phones, as mentioned, were only used to make and receive calls, and they were so bulky it was
+        impossible to carry them in a pocket. These phones used primitive RFID and wireless systems to carry signals
+        from a cabled PSTN endpoint.
+
+        Later, mobile phones belonging to the Global System for Mobile Communications (GSM) network became capable of
+        sending and receiving text messages. As these devices evolved, they became smaller and more features were added,
+        such as multimedia messaging service (MMS), which allowed users to send and receive images.
+
+        Most of these MMS-capable devices were also equipped with cameras, which allowed users to capture photos, add
+        captions, and send them to friends and relatives who also had MMS-capable phones.
+
+        Along with the texting and camera features, cell phones started to be made with a limited capability to access
+        the Internet, known as “data services.” The earliest phone browsers were proprietary and only allowed for the
+        use of a small subsection of the Internet, allowing users to access items like weather, news, and sports
+        updates.
+
+        Eventually, phone makers started to engineer these phones to access the entire Internet, and webmasters for all
+        sorts of businesses, government offices and other domain holders started to make web sites responsive to access
+        by mobile phones. The trend, called “responsive design,” changed the face of the Internet, with mobile phone
+        transactions making up a larger share of ecommerce sales and other activities.</p>
+
+    <hr>
+    <p>POPULAR SEARCHES  :  
+        Adidas Arrow Fila Online Shopping Nike Pepe Jeans Puma United Colors of Benetton Fastrack Shorts Being Human
+        Skirts Woodland Supra Dresses Clothing Jewellery T-shirts Shoes Bags Watches Caps Shirts Backpacks Flip Flops
+        Sunglasses Kurtas Lingerie Jackets Skechers Saree Sandals Puma Tshirts Woodland Shoes Titan Watches Fastrack
+        Watches Wrangler Shirts Adidas Tshirts Nike Shoes Roadster Shirts Casual Shoes Running Shoes Nike Sports Shoes
+        Jeans Being Human Tshirts Converse Shoes Cricket Shoes</p>
+    <iframe width="930" height="523" src="https://www.youtube.com/embed/kvF1YKHqru4"
+        title="Be Extraordinary Everyday with Myntra" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</footer>
+</body>
+
+</html>

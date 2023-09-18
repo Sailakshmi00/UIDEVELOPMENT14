@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .slides{
+           display: grid;
+           grid-template-columns: 100px;
+           
+            align-items: center;
+            grid-template-rows: 250px;
+            overflow-x: scroll;
+            scroll-snap-type: y mandatory;
+        }
+        .slide-item{
+            scroll-snap-align:center;
+            min-width: 175%;
+        }
+        .slide-image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <section id="mainslide">
+        <div class="slides">
+            <div class="slide-item">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+                <img src="../../../../../Downloads/iphoneimage.jpg" alt="" class="slide-image">
+            </div>
+    
+        </div>
+    </section>
+</body>
+</html>

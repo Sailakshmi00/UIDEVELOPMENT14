@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <style>
+        #bigimage {
+            background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg);
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
+        #bigimage h1 {
+            padding: 80px;
+            font-size: 50px;
+            color: white;
+        }
+
+        #bigimage p {
+
+            font-size: 30px;
+            color: white;
+            padding-left: 250px;
+            padding-top: 0px;
+        }
+
+        #bigimage #button1 {
+            padding: 15px;
+            margin-left: 250px;
+            padding-top: 15px;
+        }
+
+        #bigimage #button2 {
+            padding: 15px;
+            margin-left: 10px;
+            padding-top: 15px;
+        }
+
+        #bigimage button:hover {
+            background-color: darkslategray;
+        }
+
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+
+            color: whitesmoke;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(23, 6, 42);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            list-style: none;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            color: rgb(104, 12, 190);
+            font-size: 1.0rem;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(104, 12, 190);
+            font-size: 1.0rem;
+
+        }
+
+        nav .left {
+            margin-right: 400px;
+            font-size: 1.5rem;
+
+
+        }
+
+        .right ul li ul {
+            position: absolute;
+            width: 100px;
+            top: 40px;
+            padding: 10px 10px;
+            display: flex;
+            gap: 10px;
+            margin-left: -5px;
+            flex-direction: column;
+            background-color: aqua;
+            display: none;
+        }
+
+        .right ul li:hover ul {
+            display: block;
+        }
+
+        #div1 {
+
+            width: 100%;
+            height: 650px;
+            display: flex;
+            flex-shrink: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+
+        #div2 h1 {
+
+            font-size: 40px;
+            color: white;
+            padding-top: 360px;
+            margin-left: 10px;
+        }
+
+        #div2 p {
+            margin-left: 30px;
+        }
+
+        #div2 button {
+            padding: 15px;
+            margin-left: 150px;
+            padding-top: 15px;
+
+        }
+
+        #div2 button:hover {
+            background-color: darkslategray;
+        }
+
+        #div3 h1 {
+
+            font-size: 40px;
+            color: white;
+            padding-top: 360px;
+            margin-left: 10px;
+        }
+
+        #div3 p {
+            margin-left: 30px;
+        }
+
+        #div3 button {
+            padding: 15px;
+            margin-left: 150px;
+            padding-top: 15px;
+        }
+
+        #div3 button:hover {
+            background-color: darkslategray;
+        }
+
+        #div4 h1 {
+
+            font-size: 40px;
+            color: white;
+            padding-top: 360px;
+            margin-left: 10px;
+        }
+
+        #div4 p {
+            margin-left: 30px;
+        }
+
+        #div4 button {
+            padding: 15px;
+            margin-left: 150px;
+            padding-top: 15px;
+        }
+
+        #div4 button:hover {
+            background-color: darkslategray;
+        }
+
+
+        #div2 {
+            background-image: url("https://static.magicpin.com/storage/blog/images/myntra-online-shopping-for-women-casual-3.PNG");
+            background-position: center;
+
+        }
+
+        #div3 {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmpFh5hPtgXOet6sImluJN86H-_miiKTgMA&usqp=CAU");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        #div4 {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOX5s042sJZW-P6J_jEFftNneF9JnB5kbGAHcP2d9yNnNjN7k4nEDYdTuil4voVv_BKE4&usqp=CAU");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #div5 h1 {
+            font-size: 50px;
+            text-align: center;
+            padding: 50px;
+            margin: 20px;
+            color: rgb(23, 6, 42);
+
+        }
+
+
+        #div6 {
+            display: grid;
+            padding: 20px;
+            width: 100%;
+            margin-left: 0px;
+            height: 400px;
+            grid-template-rows: 290px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            background-color: whitesmoke;
+
+        }
+
+        #div7 {
+            color: black;
+            font-size: 20px;
+            margin-left: 0px;
+        }
+
+        #div7 h2,
+        p,
+        button {
+            margin-top: 20px;
+
+        }
+
+        #div7,
+        button {
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+        #div7 button:hover {
+            background-color: darkslategray;
+        }
+
+        #div7 img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        #div8 {
+            width: 100%;
+            height: 100px;
+        }
+
+        #div8 h1 {
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            padding: 30px;
+        }
+
+        #div9 {
+            display: grid;
+            padding: 20px;
+            width: 100%;
+            margin-left: 0px;
+            height: 400px;
+            grid-template-rows: 290px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            background-color: whitesmoke;
+
+        }
+
+        #div10 {
+            color: black;
+            font-size: 20px;
+            margin-left: 0px;
+        }
+
+        #div10 h2,
+        p,
+        button {
+            margin-top: 20px;
+
+        }
+
+        #div10,
+        button {
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+        #div10 button:hover {
+            background-color: darkslategray;
+        }
+
+        #div10 img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        #div11 {
+            width: 100%;
+            height: 100px;
+        }
+
+        #div12 {
+            background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg");
+            height: 60vh;
+            background-position: center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #div12 h1 {
+            font-size: 40px;
+            padding: 40px;
+            margin-left: 30px;
+
+        }
+
+        #div12 .div11 {
+            font-size: 30px;
+            padding-left: 80px;
+
+        }
+
+        .div12{
+            font-size: 22px;
+            margin-left: 30px;
+        }
+        #div12 h3{
+            margin-left: 30px;
+        }
+        #div12 button{
+            padding: 20px;
+            text-decoration: none;
+            margin-left: 200px;
+        }
+        #div12 button:hover{
+            background-color:darkslategray;
+        }
+        #div13{
+            width: 100%;
+            display: grid;
+            grid-template-rows: 200px;
+            grid-template-columns: 25% 25% 25% 25%;
+            
+            height: 400px;
+            padding: 20px;
+            color:black;
+            margin-left: 35px;
+        }
+        #div14 img{
+            height: 50px;
+            padding-left: 70px;
+            padding-top: 120px;
+
+           
+        }
+        #div15{
+            width: 100%;
+            height: 100px;
+        }
+        #div15 h1{
+            font-size: 30px;
+            margin-left: 170px;
+            color: black;
+        }
+        #div15 h1:hover{
+            color: blue;
+        }
+        #div16{
+            width: 100%;
+            height: 300px;
+            display: grid;
+            grid-template-rows: 300px;
+            grid-template-columns: 25% 25% 25% 25%;
+            padding: 100px;
+            background-color: whitesmoke;
+           
+           
+        }
+        #div17 h1{
+            padding: 20px;
+            color: black;
+        }
+        #div17 ul li{
+            margin-left:30px ;
+            color: black;
+        }
+        #div17 ul li:hover{
+            color:rgb(104, 12, 190);
+        }
+        #div17 button:hover{
+            background-color: darkslateblue;
+        }
+        #div18 {
+            width: 150%;
+            height: 300pxS;
+            size:cover;
+        }
+        #div18 iframe{
+            width:80%;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+
+
+
+
+        <nav>
+            <div class="left">ONLINE SHOPPING</div>
+            <div class="right">
+                <ul>
+                    <li><a href="page1.html">Home</a>
+                        <ul>
+                            <li><a href="#">MENS</a></li>
+                            <li><a href="#">WOMENS</a></li>
+                            <li><a href="#">KIDS</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="contactlink"><a href="#">Contact</a>
+                        <ul>
+                            <li><a href="#">9876543290</a></li>
+                            <li><a href="#">abc@gmail.com</a></li>
+                        </ul>
+                    </li>
+
+                    <li>About</li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+    <div id="bigimage">
+        <h1>RAINING OFFERS FOR HOT SUMMER</h1>
+        <p> 25% off on all Products</p>
+        <button id="button1">SHOP NOW</button>
+        <button id="button2"> FIND MORE</button>
+    </div>
+    <div id="div1">
+
+        <div id="div2">
+            <h1>20% Off On Tank Tops</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+            <button>SHOP NOW</button>
+        </div>
+        <div id="div3">
+            <h1>20% Off On Tank Tops</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+            <button>SHOP NOW</button>
+        </div>
+        <div id="div4">
+            <h1>20% Off On Tank Tops</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+            <button>SHOP NOW</button>
+        </div>
+
+    </div>
+    <div id="div5">
+        <h1>Featured Products</h1>
+    </div>
+
+    <div id="div6">
+        <div id="div7">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe3-400x400.jpg"
+                alt="Product 2">
+            <h2> Yellow Shoes</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div7">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe1-300x300.jpg"
+                alt="Product 2">
+            <h2>Mens Blue Shoes</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div7">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-m-jeans1-400x400.jpg"
+                alt="Product 2">
+            <h2>Dark Brown Jeans</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div7">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans2-400x400.jpg"
+                alt="Product 2">
+            <h2>Blue Denim Jeans</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div7">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans4-400x400.jpg"
+                alt="Product 2">
+            <h2>Basic grey jeansS</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+    </div>
+    <div id="div8">
+        <h1>TRENDING PROUDCTS</h1>
+    </div>
+    <div id="div9">
+        <div id="div10">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans1-400x400.jpg"
+                alt="Product 2">
+            <h2>Blue Demin Shorts</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div10">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-accessory2-400x400.jpg"
+                alt="Product 2">
+            <h2>Anchor Bracelet</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div10">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-accessory1-400x400.jpg"
+                alt="Product 2">
+            <h2> Bangle Bracelet</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div10">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-bag1-400x400.jpg"
+                alt="Product 2">
+            <h2>Light Brown purse</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+        <div id="div10">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-bag3-400x400.jpg"
+                alt="Product 2">
+            <h2>Bright Red Bag</h2>
+            <p>Price: $29.99 <button>Add to Cart</button></p>
+
+
+        </div>
+    </div>
+    <div id="div11"></div>
+    <div id="div12">
+        <p class="div11">Limited time Offer</p>
+        <h1>Special Eddition</h1>
+        <p class="div12">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+            </p>
+            <p class="div12">Ut elit tellus, luctus nec ullamcorper mattis,
+                pulvinar dapibus leo.</p>
+        <h3>Buy This T-shirt At 20% Discount, Use Code OFF20</h3>
+        <button>Add to Cart</button>
+    </div>
+    <div id="div13">
+        <div id="div14">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/globe-free-img.png" alt="">
+            <h2>Worldwide Shipping</h2>
+            <p>It elit tellus, luctus nec ullamcorper </p>
+            <p>mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div id="div14">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/quality-free-img.png" alt="">
+            <h2>Best Quality</h2>
+            <p>It elit tellus, luctus nec ullamcorper </p>
+            <p>mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div id="div14">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/tag-free-img.png" alt="">
+            <h2>Best Offers</h2>
+            <p>It elit tellus, luctus nec ullamcorper</p>
+            <p> mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div id="div14">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/lock-free-img.png" alt="">
+            <h2>Secure Payments</h2>
+            <p>It elit tellus, luctus nec ullamcorper </p>
+            <p>mattis, pulvinar dapibus leo.</p>
+        </div>
+             
+    </div>
+    <div id="div15">
+        <h1>SALE UP TO 75% OFF FOR ALL CLOTHS AND FACTION ITEMS AND ALL BRANDS</h1>
+    </div>
+    <div id="div16">
+        <div id="div17">
+            <h1>The best look anytime, anywhere.</h1>
+        </div>
+        <div id="div17">
+            <h1>FOR HER</h1>
+            <ul type="none">
+                <li>Womens JEans</li>
+                <li>Tops and Shirts</li>
+                <li>Womens Jackets</li>
+                <li>Heals and Flats</li>
+                <li>Women Accessories</li>
+            </ul>
+        </div>
+        <div id="div17">
+            <h1>FOR HIM</h1>
+            <ul type="none">
+                <li>Mens Jeans</li>
+                <li>Mens Shirts</li>
+                <li>Mens Shoes</li>
+                <li>Mens Accessories</li>
+                <li>Mens Jacket</li>
+            </ul>
+        </div>
+        <div id="div17">
+            <h1>SUBSCRIBE</h1>
+            <ul type="none">
+                <li><input type="text" name="Enter your Email id" placeholder="Enter Your Email"></li>
+                <li><button>SUBSCRIBE</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="div18">
+        <iframe width="930" height="523" src="https://www.youtube.com/embed/kvF1YKHqru4"
+        title="Be Extraordinary Everyday with Myntra" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+
+</body>
+
+</html>
