@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <style>
+        #main {
+            background-color: whitesmoke;
+            width: 99%;
+            height: 900px;
+            display: grid;
+            grid-template-columns: 30%;
+            grid-template-rows: 30% 30% 30% 30% 30%;
+
+
+
+        }
+
+        #div1 {
+            width: 330%;
+            height: 130px;
+
+            background-color: blue;
+            background-color: darkblue;
+
+        }
+
+        #div1 h1 {
+            text-align: center;
+            color: white;
+        }
+
+        #div2 {
+            padding: 55px;
+            margin: -181px;
+            border: 2px solid white;
+            width: 30%;
+            margin-left: 382px;
+            width: 560px;
+            height: 60px;
+            background-color: white;
+
+        }
+
+        #div3 {
+            padding: 55px;
+            margin: -268px;
+            border: 2px solid white;
+            width: 30%;
+            margin-left: 382px;
+            width: 560px;
+            height: 117px;
+            background-color: white;
+
+        }
+
+        #div4 {
+            padding: 55px;
+            margin: -300px;
+            border: 2px solid white;
+            width: 30%;
+            margin-left: 382px;
+            width: 560px;
+            height: 0px;
+            background-color: white;
+
+        }
+
+        #div5 {
+
+            padding: 55px;
+            margin: -451px;
+            border: 2px solid white;
+            width: 30%;
+            margin-left: 382px;
+            width: 560px;
+            height: 0px;
+            background-color: white;
+
+        }
+
+        #div2 img {
+            height: 40px;
+            width: 40px;
+            margin-left: 240px;
+            margin-top: -42px;
+        }
+
+        #div2 p {
+            margin-left: 206px;
+            font-size: x-large;
+        }
+
+        #div2 .class2 {
+            margin-left: 200px;
+            font-size: large;
+            margin-bottom: 5px;
+        }
+
+        #div30 .div31{
+          float: left;
+        }
+        
+        #div30 .div32{
+          float: right;
+        }
+        #div31 .div33{
+            padding: 5px;
+            float: left;
+            margin-top: 45px;
+            margin-left: -64px;
+        }
+        #div31 .div34{
+            padding: 5px;
+            float: right;
+            margin-top: 40px;
+            margin-right: -179px;
+        }
+        #div32 .div35{
+            padding: 5px;
+            float: left;
+            margin-top: 100px;
+            margin-left: -70px;
+        }
+        #div32 .div36{
+            padding: 5px;
+            float: right;
+            margin-top: 100px;
+            margin-right: -204px;
+        }
+        #div41 .div41{
+            padding: 5px;
+            float: left;
+            margin-top: -30px;
+            margin-left: -29px;
+        }
+        #div41 .div42{
+            padding: 5px;
+            float: right;
+            margin-top: -30px;
+            margin-right: -33px;
+        }
+        #div42 .div43{
+            padding: 5px;
+            float: left;
+            margin-top: 3px;
+            margin-left: -33px;
+        }
+        #div42 .div44{
+            padding: 5px;
+            float: right;
+            margin-top: 3px;
+            margin-right: -3px;
+        }
+        #div5{
+            text-align: center;
+        }
+        #div6{
+            
+            margin: -616px;
+           
+            width: 30%;
+            margin-left: 449px;
+            width: 560px;
+            height: 0px;
+            background-color: white;
+        }
+        .div34{
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="div1">
+            <h1>LAZYPAY PRIVATE</h1>
+        </div>
+        <div id="div2"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX8/PwAsB3///8REiRbW10AABwArAAAqgAArxX//f8AqAAArgva79yj2KXf8eDy+vNYv12Kz42Y1Zzk9OZ8yn5sxG7I6MpMvFG8476EzYcfsyl2yXqo26vr9exjwmeO0ZIvtTY/t0TS69Oz4LcAABIsLDkAABcdHS1XWGBHR1BgYWczMztwcHeIiYt2d3qBgoexJHp+AAAEcklEQVRoge2ZW3uiOhSGMR1zIGCoFLEiFnF3pt17uuf//7uJEDBATqQ4z1z0e3pRRXhZh2QlK0HwpS9ZRIAkcgcAf2yQ7uLtU8b1tI336RW5LIHtHnMYQghpI/5PCPPHHVuKQwDbZxBBvBoJ8y+zPVvAcQRsng+QjgGdKDw8bz6JISDKKNQRWkGaRZ/BAFbojZDNKZhvbAg4uiBazNHPGFDmyA1xFcpLD2PAnjqaIYyh+9kUsJ1hhjBmO49CSGHJKZVgMScwBJw8GJxymkEBiReDUxJnj4HMk8EpmSMFPHozOOXRiQIus/NKFro4UMDGxw58G1Rw40A5T+Z0u+iJnTr78dluyIuPIbAE3Mvi7eCLxRQQeTEu16rPcnEvjMwUkMyasFrRRCwujv1nI2Pnk1mYCUgpvkA7EwX4RB3tu2VSLtyAzwaIlyF8kAvFfTxNpoDcw5BV76yw/wrro0LS0PAsnSG9s2RXh6luOvaZtHgNEdrKN+unMDDfWfjQOWs0wLAGQur5hvAId5k1fENYq/01NNhJGmddr2gKvs8gAWpn6YcKm424Oauavh9bJiTwuWMo0lIdFHCZCcFVIBi1YnxBZYUEzzMhsDY4SzNSQDL6qWW1zZ8ipHw79cwyTi60M65Ub87aKT2gSa+h0SHPnBcDBUWCERyUmc9fwgpps1M/PHkhF3pS/wZXqhxmlfwMMQJ0HsNVx9CWIDukH2UaCl9ctWJqZ7lADt0zNBQ+MwnptxhKiBwTvDJScG51libwgxTGNDVQYJ9Z+qGkTuFRRUASZTyNx92VzADJlZDRHXSjodDeWXvDRESVOxVpRdO+yiq6UWSPwc7GcmUoQOqqNZkeNBR07J1lmlGhculF0rGDlRQeUAdncXepF0VgMq5UOXbdJbTD0DhJ44OmxheT2/Akx9Cl+2xe/9NCA1GVRjjMMXrqPh3Ny2Z1YeRiivswHsalzyxLGUXKSSVQ1MaGIkc/dHSWYcWtzheZ0i+ujzZD9C0joC6k0tgXmmT7WNCwP1FXQgzTESS3QHSL1KsI03gBDm2JbYsnyAzdIt0OBdNIYlh7FuYGCyk1t8mZ7LAwL41tL60npByz7jB4vTExAn1rBWMRF+vG0t5cAdq1fZdjqoXv0JDa2iYyeANdbbE2eEzpe6PoZwyeY9ZNjKWxIkQCbVXFq9rWTsCrwKmhCjZUS9Fe6X/g0rdrKPX0RMZN2CHoPcWrI7Wy9aAmttj8orSDutvRUDaH2S08enCNR0/pO4qugvn84yDCh90Ml2G+9fI5CwJ15WwMrOaFQ6IEL8gpMhRtA/9TTcAyO4aizPtwrhEBaYFNseEXi/TTh6YElPEZqjkYwnNcLnKgTQCItglGkA72exDhZBsteGbOOayOi6SiCIUhQrRKirhmi5/KNyf+ASsbsaavco9z/5bV6F5P/9KX/lKNN1H3UPDtDyhYy/q+vouCh1Zr/rf+55VzHr4/rF8fFhWH/Hh7//e/t5/vb+8f///6+fH68fHt7ceikN+D30tnZEAF/QAAAABJRU5ErkJggg=="
+                alt="">
+            <p> ₹ 3,015.00</p>
+            <p class="class2">Paid Successfully</p>
+        </div>
+        <div id="div3">
+            <div id="div30">
+                <div class="div31">Paymentid</div>
+            <div class="div32">pay_MdPcRyuahFGegi</div>
+            </div>
+            <div id="div31">
+                <div class="div33">Method</div>
+                <div class="div34">mohammedsajeed4846@yb1</div>
+            </div>
+            <div id="div32">
+                <div class="div35">Paid On</div>
+                <div class="div36">17th Sep, 2023 18:33:12 Pm ISt</div>
+            </div>
+        </div>
+        <div id="div4">
+            <div id="div41">
+                <div class="div41">Email</div>
+                <div class="div42">Mahalakshmi123@gmail.com</div>
+            </div>
+            <div id="div42">
+                <div class="div43">MobileNo</div>
+                <div class="div44">+91 9876543290</div>
+            </div>
+        </div>
+        <div id="div5"><p>For any order related queries please reachout to LAZYPAY PRIVATE</p></div>
+        <div id="div6"><p>Please report this patment if it find to be suspecious or fraudulent report Payment</p></div>
+    </div>
+</body>
+
+</html>
