@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            padding: 5em 2em;
+        }
+
+        button {
+            background-color: #ea3d66;
+        }
+
+        form {
+            font-size: xx-large;
+            color: #ea3d66;
+
+
+        }
+
+        fieldset {
+            width: 20%;
+            margin-left: 600px;
+            border-radius: 50px;
+            box-sizing: content-box;
+            align-items: center;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 50px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h1>Fill the details</h1>
+        </legend>
+        <form name="myForm">
+            <label for="FirstName">FirstName</label><br>
+            <input type="text" name="FirstName"><br><br>
+            <label for="LastName">LastName</label><br>
+            <input type="text" name="LastName"><br><br>
+            <label for="age">PhoneNmunber</label><br><br>
+            <input type="number" name="PhoneNumber" id="age" /><br>
+            <button type="submit" >Submit</button><br>
+        </form>
+    </fieldset>
+    <script>
+        function onclick(){
+            var checkPhoneNumber = (e) => {
+            if (document.querySelector('#Phone Number').value > 9999999999) {
+
+                // Preventing the submit of the form
+                e.preventDefault();
+
+                // Displaying the modal window
+                alert("You have to enter the number below 9999999999");
+            }
+        };
+        }
+
+        // Listening to the click event on the button
+        document.querySelector('button').addEventListener('click', checkPhoneNumber);
+    </script>
+</body>
+
+</html>

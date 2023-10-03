@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <fieldset>
+        <legend>Fill the form</legend>
+        <form action="">
+            <label for="fname">FirstName</label>
+            <input type="text" id="id1"  onclick="f1()" onblur="resetSize('id1')">
+            <label for="lname">LastName</label>
+            <input type="text" id="id2" onfocus="f2()" onblur="resetSize('id2')">
+        </form>
+    </fieldset>
+
+    <script>
+        function f1() {
+            var v = document.getElementById("id1");
+            v.style.width = "250px";
+            v.style.padding = "20px";
+            console.log("ondblclick from input field");
+        }
+
+        function f2() {
+            var v = document.getElementById("id2");
+            v.style.width = "250px";
+            v.style.padding = "20px";
+            console.log("onfocus from input field");
+        }
+
+        function resetSize(id) {
+            var v = document.getElementById(id);
+            v.style.width = "150px"; // Reset width
+            v.style.padding = "10px"; // Reset padding
+            console.log("onblur from input field");
+        }
+    </script>
+</body>
+</html>

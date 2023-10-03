@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <section>
+        <h2>Enter Text</h2>
+        <textarea oninput="f1(this)" name="" id="" cols="30" rows="10"></textarea>
+    </section>
+
+    <section style="border: 1px solid blue; font-size: xx-large;">
+        <h2>Entered Text is: </h2>
+        <div id="id1"></div>
+    </section>
+
+    <script>
+        function f1(element){
+            var v = element.value
+            document.getElementById("id1").innerHTML = v
+        }
+    </script>
+</body>
+
+</html>
