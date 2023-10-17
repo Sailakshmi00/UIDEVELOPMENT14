@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Iterative Statements</h1>
+    <h2 id="result"></h2>
+    <script>
+        var i;
+        result=" ";
+        for(i=0;i<=100;i++){
+            result+=i+" ";
+            if(i%10==0){
+                result+="<br> ";
+            }
+            document.getElementById("result").innerHTML=result
+        }
+    </script>
+</body>
+</html>

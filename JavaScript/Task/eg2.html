@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1 id="h1tag">This is a javascript</h1>
+    <button type="button" onclick="show()" dir="rtl">H1 click</button>
+    <h2 id="h2tag">this is the second heading</h2>
+    <button type="button" onclick="display()" dir="rtl">Clickme</button>
+    <script>
+        function display(){
+           return alert("this is an alert message");
+        }
+
+        function show(){
+             document.getElementById("h1tag").innerHTML="THIS IS FIRST HEADING";
+        }
+        console.log("console block");
+    </script>
+</body>
+</html>

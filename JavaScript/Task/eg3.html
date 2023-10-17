@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Control Statements</h1>
+    <h1>Enter first numbet:<input type="text" name="name" id="t1"> </h1>
+    <h1>Enter second numbet:<input type="text" name="name" id="t2"> </h1>
+    <button type="button" onclick="Relation()">Relation between</button>
+    <script>
+        function Relation(){
+            if(document.getElementById("t1").value==document.getElementById("t2").value){
+                window.alert("Both are equal");
+            }
+            else if(document.getElementById("t1").value>document.getElementById("t2").value){
+                window.alert("first number is greater");
+            }
+            else {
+                window.alert("second number is greater");
+            }
+        }
+    </script>
+</body>
+</html>
