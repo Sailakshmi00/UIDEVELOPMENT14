@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // console.log("Enhanced Object Literals---")
+
+        // console.log("Es5 attribute declaring")
+        // // In Es5 you need to enter both object key and variable key which hold value
+        // var name = "one"
+        // var age = 25
+        // var salary = 3500
+        // var emp = {
+        //     name: name,
+        //     age: age,
+        //     salary: salary
+        // }
+        // console.log(emp)
+
+        // console.log("Es6 attribute declaring")
+        // // In Es6 you can enter both object and variable key at once
+        // let secondname = "two"
+        // let age1 = 26
+        // let salary1 = 5500
+
+        // let emp1 = {
+        //     secondname,
+        //     age1,
+        //     salary1
+        // }
+        // console.log(emp1)
+
+        // console.log("---")
+
+        // console.log("Es5 method declaring")
+        // In Es5 you need to enter keyword function for declaring function inside object
+        var name = "one"
+        var emp = {
+            name: name,
+            showName: function () {
+                console.log(`Hello ${name}, Welcome to this company`)
+            }
+        }
+        console.log(emp)
+        emp.showName()
+
+        // console.log("Es6 method declaring")
+        // // In Es6 you dont need to enter keyword for function
+        // let name1 = "two"
+        // let secondemp = {
+        //     name1,
+        //     showName() {
+        //         console.log(`Hello ${name1}, Welcome to this company`)
+        //     }
+        // }
+        // console.log(secondemp)
+        // secondemp.showName()
+
+        // console.log("---")
+
+        // console.log("Es6 attribute and method declaring")
+        // // You can directly enter attribute and method name inside object
+        // let name = "one"
+        // let showName = () => { console.log(`Hello ${name}, Welcome to this company`) }
+        // let emp = {
+        //     name,
+        //     showName
+        // }
+        // console.log(emp)
+        // emp.showName()
+
+        // console.log("---")
+        // // In Es6 we can use dynamic attribute name
+        // console.log("Es6 object dynamic attributes or key")
+
+        // let obj_key = 'salary'
+        // let emp = {
+        //     name: "one",
+        //     age: 27,
+        //     [obj_key]: 5500
+        // }
+        // console.log(emp)
+
+        // console.log("---")
+
+        // console.log("Es5, to return as object")
+        // // In Es5 for returning you need to enter both object key name and value key
+        // function emp() {
+        //     var name = "one";
+        //     var age = 25;
+        //     return { name: name, age: age }
+        // }
+        // console.log(emp())
+
+        // console.log("Es6, to return as object")
+        // // In Es6 if you enter object key, it will takes with value
+
+        // function emp1() {
+        //     let name = "one";
+        //     let age = 25;
+        //     return { name, age }
+        // }
+        // console.log(emp1())
+
+        // console.log("---")
+
+        // console.log("Es6 object declared using array")
+        // // Dynamic object creation using shift()
+        // let properties = ["name", "age", "salary"]
+        // let emp1 = ["one", 27, 3500]
+
+        // let emp1_detail = {
+        //     [properties.shift()]: emp1.shift(),
+        //     [properties.shift()]: emp1.shift(),
+        //     [properties.shift()]: emp1.shift(),
+        // }
+        // console.log(emp1_detail)
+    </script>
+</body>
+
+</html>

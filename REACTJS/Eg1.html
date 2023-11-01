@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Price</h1>
+    <p id="id1"></p>
+    <button onclick="f1(1000,5000)">1000 - 5000</button>
+    <button onclick="f2(5000,10000)">5000 - 10000</button>
+    <button onclick="f3(10000,20000)">10000 - 20000</button>
+    <button onclick="f3(20000,30000)">20000 - 30000</button>
+    <button onclick="f4(30000,40000)">30000 - 40000</button>
+    <script>
+        
+        const array1 = [
+            {
+                Dress : "First dress",
+                Cost : 40000
+            },
+            {
+                Dress : "Second dress",
+                Cost : 12000
+            },
+            {
+                Dress : "Third dress",
+                Cost : 30000
+            },
+            {
+                Dress : "Fourth dress",
+                Cost : 10000
+            },
+            {
+                Dress : "First dress",
+                Cost : 20000
+            },
+            {
+                Dress : "Second dress",
+                Cost : 1200
+            },
+            {
+                Dress : "Third dress",
+                Cost : 30000
+            },
+            {
+                Dress : "Fourth dress",
+                Cost : 10000
+            },
+            {
+                Dress : "First dress",
+                Cost : 60000
+            },
+            {
+                Dress : "Second dress",
+                Cost : 10000
+            },
+            {
+                Dress : "Third dress",
+                Cost : 70000
+            },
+            {
+                Dress : "Fourth dress",
+                Cost : 10000
+            },
+        ];
+        // array1.forEach(function(array1,index){
+        //     console.log(array1);
+        // })
+        function f1(n1,n2){
+            for(let i = 0;i<array1.length;i++){
+            if(array1[i].Cost>n1 && array1[i].Cost<n2){
+                console.log(array1[i]);
+            }
+        }
+        }
+        function f2(n1,n2){
+            for(let i = 0;i<array1.length;i++){
+            if(array1[i].Cost>n1 && array1[i].Cost<n2){
+                console.log(array1[i]);
+            }
+        }
+        }
+        function f3(n1,n2){
+            for(let i = 0;i<array1.length;i++){
+            if(array1[i].Cost>n1 && array1[i].Cost<n2){
+                console.log(array1[i]);
+            }
+        }
+        }
+        function f4(n1,n2){
+            for(let i = 0;i<array1.length;i++){
+            if(array1[i].Cost>n1 && array1[i].Cost<n2){
+                console.log(array1[i]);
+            }
+        }
+        }
+        
+    </script>
+</body>
+</html>
